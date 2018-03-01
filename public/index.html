@@ -11,7 +11,17 @@
 <body>
     <p>Welcome to index</p>
 
+    <form id ="mess">
+        <input id="messageInp" name="message" type="text" placeholder="Message"/>
+        <button>Send</button>
+    </form>
+
+    <ol id="messageList">
+    </ol>
+
     <script src ="/socket.io/socket.io.js"></script>
+    <script src="/js/libs/jquery-3.3.1.min.js"> 
+    </script>
     <script src="/js/index.js"> 
     </script>
 </body>
